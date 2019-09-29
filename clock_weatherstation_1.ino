@@ -42,13 +42,13 @@ int wait = 70; // In milliseconds
 
 int spacer = 1;
 int width  = 5 + spacer; // The font width is 5 pixels
-const char *ssid      = "bbk2";
-const char *pass  = "internet2";
+const char *ssid      = "Wi-Fi name";
+const char *pass  = "password";
 byte w = 0; 
 
 char *zi[7] = { "Luni", "Marti", "Miercuri", "Joi", "Vineri", "Sambata", "Duminica" };
 char *luna[12] = { "Ianuarie", "Februarie", "Martie", "Aprilie", "Mai", "Iunie", "Iulie", "August", "Septembrie", "Octombrie", "Noiembrie", "Decembrie" };
-String APIKEY = "ca55295c4a1dce2688e0751d4b9a68de";       //  Api key from https://openweathermap.org/                              
+String APIKEY = "ca55295c4a1blablablabereb9a68de";       //  Api key from https://openweathermap.org/                              
 String CityID = "680332";                                 //Craiova, must put Your City ID
 
 WiFiClient client;
