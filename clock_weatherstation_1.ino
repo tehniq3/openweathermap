@@ -48,7 +48,7 @@ byte w = 0;
 
 char *zi[7] = { "Luni", "Marti", "Miercuri", "Joi", "Vineri", "Sambata", "Duminica" };
 char *luna[12] = { "Ianuarie", "Februarie", "Martie", "Aprilie", "Mai", "Iunie", "Iulie", "August", "Septembrie", "Octombrie", "Noiembrie", "Decembrie" };
-String APIKEY = "ca55295c4a1blablablabereb9a68de";       //  Api key from https://openweathermap.org/                              
+String APIKEY = "ca55295c4a1blablablabereb9a68de";       //  Api key from https://openweathermap.org/ here is a fake API key ;-)                           
 String CityID = "680332";                                 //Craiova, must put Your City ID
 
 WiFiClient client;
