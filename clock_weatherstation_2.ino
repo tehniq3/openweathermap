@@ -315,7 +315,7 @@ if ((cod >= 300) and (cod <= 321)) vreme = vreme + "burnita ";
 if ((cod >= 500) and (cod <= 531)) vreme = vreme + "ploaie ";
 if ((cod >= 600) and (cod <= 622)) vreme = vreme + "ninsoare ";
 if ((cod >= 701) and (cod <= 781)) vreme = vreme + "praf/ceata ";
-if (cod = 800) vreme = vreme + "cer senin ";
+if (cod == 800) vreme = vreme + "cer senin ";
 if ((cod >= 801) and (cod <= 804)) vreme = vreme + "innorat ";
  
   return vreme; // returns
