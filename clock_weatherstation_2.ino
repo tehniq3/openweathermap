@@ -278,14 +278,14 @@ int pressure = root["main"]["pressure"];
 int cod = root["weather"]["id"];
 String weather = root["weather"]["main"];
 String description = root["weather"]["description"];
-
+/*
 Serial.print("weather = ");
 Serial.println(weather);
 Serial.print("description = ");
 Serial.println(description);
 Serial.print("id = ");
 Serial.println(cod);
-
+*/
 weatherDescription = description;
 weatherLocation = location;
 Country = country;
